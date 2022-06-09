@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(214, 214, 214);
+
+}
+
+h1 {
+    color: brown;
+    background-color: goldenrod;
+    
+    color: black
+}
+h2{
+    color: brown;
+   
+}
+
+p {
+   
+    color: black;
+}
+.navegação {
+    text-align: center;
+}

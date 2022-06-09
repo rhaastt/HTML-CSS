@@ -1,0 +1,8 @@
+Compatibilidade
+padrçoes suportados
+-mp4
+-ogv
+-m4v
+
+Videos muito grandes geram um valor maior para hospedagem.
+

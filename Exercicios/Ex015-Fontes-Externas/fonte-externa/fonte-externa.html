@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Dark' ;
+            src: url('Dark Seventh.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+
+        }
+        .externa {
+            font-family:'Dark', 'Arial' ;
+        }
+      
+    </style>
+</head>
+<body>
+    <h1>Fontes-Externas</h1>
+    <h2>Utilizando Fontes-Externas</h2>
+    <p>Fontes-Externas são aquelas que precisam de um processo especial. Precisam ser baixadas e emplementadas na pasta do projeto.</p>
+    <p>O processo é parecido com o dos outros arquivos img, video e audio hospedados no proprio servidor. </p>
+    <p>As Fontes-Externas precisam ser estudas para vê se possui todas as letras, caratcter, acentos e numeros que serão usados</p>
+    <p>Exemplo de um fonte-externa:</p>
+    <br>
+
+    <div class="externa">
+        <h1>Dark Seventh</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, labore quasi optio omnis <br> consequuntur ab fugit natus quas ipsa modi nihil hic aperiam placeat cum veritatis voluptatum? Corrupti, officiis deleniti.</p>
+    </div>
+<br>
+    <h2>configuração</h2>
+    <p>A fonte precisa de uma menção @font-face no style e de um format, e os tipos de formats são:</p>
+    <ul>
+        <li>opentype (arquivos OTF)</li>
+        <li>truetype (arquivos TTF)</li>
+        <li>embedded-opentype</li>
+        <li>truetype-aat (apple advanced Typography)</li>
+        <li>svg</li>  
+    </ul>
+    
+</body>
+</html>

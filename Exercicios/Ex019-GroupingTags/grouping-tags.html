@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+          body {
+            background-color: gray;
+        }
+
+        header {
+            width: 100%;
+            background-color: black;
+            color: white;
+            display: inline-block;
+        }
+
+        nav > a {
+            margin-left:50px;
+            text-decoration: none;
+            color: white; 
+        }
+
+        nav>a:hover{
+            color: red;
+        }
+
+        header > h1 {
+            margin-left: 2px;
+            font-size: 50px;
+        }
+      
+        main {
+            background-color: white;
+            margin: 10px ;
+            padding: 10px;  
+        }
+
+        section#tags {
+            background-color: lightgray;
+            border: 1px solid black;
+            margin:;
+        }
+        section#tags { 
+            margin:    auto;
+        }
+        article#header {
+           width: 300px;
+           text-align: justify;
+           margin: 10px auto 10px auto;
+           
+        }
+        article#header > h3 {
+            text-align: center;   
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+        }
+        article.main {
+            width: 300px;
+            height: 173px;
+            display: inline-block;
+            border: 1px solid black;
+            margin-left: 10px ;
+            background-color: rgb(156, 156, 156);
+        }
+        article.main > h3 {
+            color: white;
+            background-color: black;
+            text-align: center;
+            width: 100%;
+        }
+        article.main > p {
+            padding: 4px;
+            text-align: justify;
+        }
+       
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="">inicio</a>
+            <a href="">meio</a>
+            <a href="">fim</a>
+        </nav>
+        <h1>Grouping Tags</h1>
+    </header>
+    <main>
+        <h1>Grouping Tags</h1>
+        <h2>Semanticas das divs</h2>
+        <p>No Html existe tags semanticas para dividir melhor o documento:</p>
+        <section id="tags">
+            <article id="header">
+                <h3>Header</h3>
+                <p>É nada mais nada menos que o cabeçario da pagina, aonde geralmente esta o menu que tambem possui uma tag semantica para essa divisão dentro do cabeçario, e a tag é <strong>NAV</strong></p>
+            </article>
+            <article class="main">
+                <h3>Main</h3>
+                <p>É a tag aonde vai todo o conteudo do site e dentro dele possui diversas tags para melhorar a separação dos elementos. </p>
+            </article>
+            <article class="main">
+                <h3>Section</h3>
+                <p>É uma tag para separar elementos dentro de uma determinada classe como:noticias, documentarios, artigos e etc.</p>
+            </article>
+            <article  class="main">
+                <h3>Article</h3>
+                <p>O article é  para dividir elementos da mesma classe. Pensa em um jornal com varias noticias e cada noticia é um article. </p>
+            </article>
+            <article  class="main">
+                <h3>Aside</h3>
+                <p>É uma tag que fica dentro da <strong>article</strong>. É usado para um elemento relativo, como o criador daquele artigo ou informações especiais.</p>
+            </article>
+
+            <article id="footer">
+                <h3>Footer</h3>
+                <p>A tag <strong>footer</strong> é utilizada para separar o rodapé da pagina</p>
+            </article>
+        </section>
+        
+    </main>
+    <footer>
+        <p>SITE EM DESENVOLVIMENTO</p>
+    </footer>
+    
+</body>
+</html>
