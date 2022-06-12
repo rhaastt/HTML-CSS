@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+div {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+#div1 {
+    background-image: url(imagens/back1.jpg)
+}
+
+#div2 {
+    background-image: url(imagens/back2.jpg);
+}
+
+#div3 {
+    background-image: url(imagens/back3.jpg);
+}
