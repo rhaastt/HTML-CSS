@@ -1,0 +1,43 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+div.tabela {
+    border: 1px solid rgb(255, 0, 0);
+    background-color: red;
+    margin: auto;
+    width: 400px;
+    border-radius: 5px;
+}
+table {
+    width: 400px;
+    margin: auto;
+    
+    
+}
+td {
+    width: 80px;
+    height: 80px;
+    margin: 3px;
+    padding: 8px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle; 
+    background-color: white; 
+    font-size: 1.5em; 
+}
+p {
+    margin: 5px;
+}
+td > P:hover {
+    background-color: red;
+    color: white;
+    font-size: 2em;  
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}
